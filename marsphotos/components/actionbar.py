@@ -22,9 +22,10 @@ def actionbar() -> rx.Component:
         rx.hstack(
             # The logo.
             rx.color_mode_cond(
-                rx.image(src="/reflex_white.svg"),
+                rx.image(src="/reflex_black.svg"),
                 rx.image(src="/reflex_white.svg"),
             ),
+            # rx.reflex.logo(),
             
             rx.link(                
                 rx.icon(

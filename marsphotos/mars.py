@@ -50,7 +50,7 @@ def bottom_nav():
             on_click=MarsPhotoState.last
         ),
         rx.select(
-            ['8', '16', '24', '32', '40'],
+            ['8', '20', '40'],
             value=MarsPhotoState.page_size.to_string(),
             on_change=MarsPhotoState.set_page_size
         ),

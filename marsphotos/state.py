@@ -17,7 +17,7 @@ class MarsPhotoState(rx.State):
     
     data: list[marsdata.MarsPhoto]
     pos: int = 0
-    page_size: int = 16
+    page_size: int = 8
     
     # computed vars
     @rx.var
